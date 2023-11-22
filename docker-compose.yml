@@ -31,8 +31,11 @@ services:
     restart: always
     volumes:
       - ./conf/nginx/http.conf:/etc/nginx/nginx.conf
+      - ./conf/nginx/fullchain.pem:/certificates/fullchain.pem:ro
+      - ./conf/nginx/privkey.pem:/certificates/privkey.pem:ro
     ports:
       - 80:80
+      - 443:443
     depends_on:
       - ctfd
 
