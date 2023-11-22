@@ -81,5 +81,5 @@ node_modules/
 # Flask Profiler files
 flask_profiler.sql
 
-./conf/nginx/privkey.pem
-./conf/nginx/fullchain.pem
+conf/nginx/privkey.pem
+conf/nginx/fullchain.pem
