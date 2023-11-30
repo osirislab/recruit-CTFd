@@ -17,6 +17,8 @@
 @use "includes/icons/award-icons";
 @use "includes/icons/flag-icons";
 
+
+ 
 h1,
 h2 {
   font-weight: 500;
@@ -28,6 +30,7 @@ a {
   text-decoration: none !important;
 }
 
+
 blockquote {
   border-left: 4px solid $secondary;
   padding-left: 15px;
@@ -37,6 +40,7 @@ blockquote {
   text-align: center;
   opacity: 0.5;
 }
+
 
 .badge-notification {
   vertical-align: top;

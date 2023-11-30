@@ -8,6 +8,7 @@
 
   {% block stylesheets %}
     {{ Assets.css("assets/scss/main.scss") }}
+    {{ Assets.css("assets/scss/front-page.scss")}}
   {% endblock %}
 
   {{ Plugins.styles }}
@@ -56,6 +57,7 @@
 
 {% block scripts %}
   {{ Assets.js("assets/js/index.js") }}
+  {{ Assets.js("assets/js/slick.js")}}
 {% endblock %}
 
 {{ Plugins.scripts }}

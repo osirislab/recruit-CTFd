@@ -139,8 +139,13 @@
       "_index.da797d60.js"
     ]
   },
+  "assets/scss/front-page.scss": {
+    "file": "assets/front-page.81b56d6c.css",
+    "src": "assets/scss/front-page.scss",
+    "isEntry": true
+  },
   "assets/scss/main.scss": {
-    "file": "assets/main.0aaf0d88.css",
+    "file": "assets/main.dd76c263.css",
     "src": "assets/scss/main.scss",
     "isEntry": true
   }
